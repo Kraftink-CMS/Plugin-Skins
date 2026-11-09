@@ -5,9 +5,14 @@
     "license": "MIT",
     "description": "skins::messages.description",
     "market": {
+        "readme": {
+            "en": "lang/en/market.md",
+            "fr": "lang/fr/market.md"
+        },
+        "icon": "person-bounding-box",
         "name": "skins::messages.title",
         "author": {"name": "nivcoo, KraftInk", "url": "https://github.com/kraftink-cms"},
-        "description": "skins::messages.description"
+        "description": "skins::market.description"
     },
     "type": "plugin",
     "version": "1.0.1-dev",
