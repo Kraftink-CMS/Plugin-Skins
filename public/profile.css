@@ -1,0 +1,45 @@
+.skins-profile {
+    scroll-margin-top: 5rem;
+}
+
+.skins-profile .skins-preview-stage {
+    display: grid;
+    place-items: center;
+    gap: 0.75rem;
+    min-height: 5.5rem;
+    padding: 1rem;
+    border: var(--bs-border-width, 1px) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    background: var(--bs-tertiary-bg, var(--bs-body-bg));
+}
+
+.skins-profile .skins-preview-views {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.skins-profile .skins-preview-views[hidden] {
+    display: none;
+}
+
+.skins-profile .skins-preview-stage canvas,
+.skins-profile .skins-preview-original {
+    image-rendering: pixelated;
+    max-width: 100%;
+    height: auto;
+}
+
+.skins-profile .skins-preview-views canvas {
+    width: clamp(4rem, 15vw, 6rem);
+}
+
+.skins-profile .skins-preview-cape {
+    width: 3.125rem;
+}
+
+.skins-profile .skins-preview-original {
+    width: 6rem;
+}

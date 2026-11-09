@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'files_help' => 'Revisa la vista previa de las texturas de este perfil antes de guardar tus cambios.',
+    'upload_unavailable' => 'Tus permisos actuales no permiten subir archivos nuevos.',
+    'cape_usage' => 'La capa PNG se usa en el sitio y en los lanzadores compatibles.',
+    'variant_help' => 'Elige la forma de los brazos de tu skin. La vista previa de las skins antiguas de 64 × 32 usa brazos clásicos.',
+    'public_policy' => 'Cualquiera con el enlace puede ver los archivos PNG nuevos en este sitio.',
+    'private_policy' => 'Los archivos PNG nuevos permanecen privados en este sitio.',
+    'public_links_policy' => 'Cualquiera que tenga uno de los enlaces públicos puede ver la textura correspondiente.',
+    'public_skin_link' => 'Abrir el enlace público de la skin guardada',
+    'public_cape_link' => 'Abrir el enlace público de la capa guardada',
+    'disabled_skin' => 'Las skins están desactivadas en este sitio.',
+    'disabled_cape' => 'Las capas están desactivadas en este sitio.',
+    'game_policy' => 'Tu skin guardada puede aplicarse automáticamente al entrar en un servidor autorizado por la administración. Para firmarla, SkinsRestorer envía el PNG a MineSkin.',
+    'save' => 'Guardar texturas',
+    'skin_preview' => 'Vista previa de la skin',
+    'cape_preview' => 'Vista previa de la capa',
+    'front' => 'Frente',
+    'back' => 'Espalda',
+    'saved_png' => 'PNG guardado',
+    'default_png' => 'Skin predeterminada del sitio',
+    'unsaved_png' => 'PNG seleccionado. Guárdalo para conservarlo.',
+    'no_skin' => 'No hay ninguna skin PNG disponible.',
+    'no_cape' => 'No hay ninguna capa PNG guardada.',
+    'preview_error' => 'Vista previa no disponible. Comprueba el formato y las dimensiones del PNG.',
+];
