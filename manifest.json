@@ -15,7 +15,7 @@
         "description": "skins::market.description"
     },
     "type": "plugin",
-    "version": "1.0.1-dev",
+    "version": "1.0.1",
     "namespace": "KraftInk\\Plugins\\Skins\\",
     "provider": "KraftInk\\Plugins\\Skins\\Providers\\PluginServiceProvider",
     "privacy": "KraftInk\\Plugins\\Skins\\Services\\Privacy",
