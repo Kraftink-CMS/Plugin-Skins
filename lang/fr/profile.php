@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'files_help' => 'Vérifiez l’aperçu des textures de ce profil avant d’enregistrer vos modifications.',
+    'upload_unavailable' => 'Vos permissions actuelles ne permettent pas d’envoyer de nouveaux fichiers.',
+    'cape_usage' => 'La cape PNG est destinée au site et aux lanceurs compatibles.',
+    'variant_help' => 'Choisissez la forme des bras de votre skin. L’aperçu des anciens skins de 64 × 32 affiche des bras classiques.',
+    'public_policy' => 'Sur ce site, les nouveaux fichiers PNG sont accessibles à toute personne disposant du lien.',
+    'private_policy' => 'Les nouveaux fichiers PNG restent privés sur ce site.',
+    'public_links_policy' => 'Toute personne disposant d’un lien public ci-dessus peut consulter la texture correspondante.',
+    'public_skin_link' => 'Ouvrir le lien public du skin enregistré',
+    'public_cape_link' => 'Ouvrir le lien public de la cape enregistrée',
+    'disabled_skin' => 'Les skins sont désactivés sur ce site.',
+    'disabled_cape' => 'Les capes sont désactivées sur ce site.',
+    'game_policy' => 'Votre skin enregistré peut s’appliquer automatiquement à la connexion sur les serveurs autorisés par l’administration. SkinsRestorer envoie alors le PNG à MineSkin pour le signer.',
+    'save' => 'Enregistrer les textures',
+    'skin_preview' => 'Aperçu du skin',
+    'cape_preview' => 'Aperçu de la cape',
+    'front' => 'De face',
+    'back' => 'De dos',
+    'saved_png' => 'Fichier PNG enregistré',
+    'default_png' => 'Skin par défaut du site',
+    'unsaved_png' => 'Fichier PNG sélectionné. Enregistrez-le pour le conserver.',
+    'no_skin' => 'Aucun skin PNG disponible.',
+    'no_cape' => 'Aucune cape PNG enregistrée.',
+    'preview_error' => 'Aperçu indisponible. Vérifiez le format et les dimensions du PNG.',
+];

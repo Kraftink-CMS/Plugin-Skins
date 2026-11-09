@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'files_help' => 'Preview the textures for this profile before saving your changes.',
+    'upload_unavailable' => 'You cannot upload new files with your current permissions.',
+    'cape_usage' => 'The cape PNG is for the website and compatible launchers.',
+    'variant_help' => 'Choose the arm shape for your skin. Older 64 × 32 skins use classic arms in the preview.',
+    'public_policy' => 'Anyone with the link can view newly uploaded PNG files on this site.',
+    'private_policy' => 'Newly uploaded PNG files stay private on this site.',
+    'public_links_policy' => 'Anyone with a public link above can view the corresponding texture.',
+    'public_skin_link' => 'Open the public link to the saved skin',
+    'public_cape_link' => 'Open the public link to the saved cape',
+    'disabled_skin' => 'Skins are disabled on this site.',
+    'disabled_cape' => 'Capes are disabled on this site.',
+    'game_policy' => 'Your saved skin can be applied automatically when you join a server authorized by the administrators. SkinsRestorer then sends the PNG to MineSkin to sign it.',
+    'save' => 'Save textures',
+    'skin_preview' => 'Skin preview',
+    'cape_preview' => 'Cape preview',
+    'front' => 'Front',
+    'back' => 'Back',
+    'saved_png' => 'Saved PNG',
+    'default_png' => 'Default website skin',
+    'unsaved_png' => 'Selected PNG. Save to keep it.',
+    'no_skin' => 'No skin PNG available.',
+    'no_cape' => 'No cape PNG saved.',
+    'preview_error' => 'Preview unavailable. Check the PNG format and dimensions.',
+];

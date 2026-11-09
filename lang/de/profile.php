@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'files_help' => 'Sieh dir die Texturen für dieses Profil an, bevor du deine Änderungen speicherst.',
+    'upload_unavailable' => 'Mit deinen aktuellen Berechtigungen kannst du keine neuen Dateien hochladen.',
+    'cape_usage' => 'Die PNG-Datei des Umhangs ist für die Website und kompatible Launcher vorgesehen.',
+    'variant_help' => 'Wähle die Armform deines Skins. In der Vorschau werden ältere Skins mit 64 × 32 Pixeln mit klassischen Armen angezeigt.',
+    'public_policy' => 'Jeder mit dem Link kann neu hochgeladene PNG-Dateien auf dieser Website ansehen.',
+    'private_policy' => 'Neu hochgeladene PNG-Dateien bleiben auf dieser Website privat.',
+    'public_links_policy' => 'Jeder mit einem der öffentlichen Links oben kann die jeweilige Textur ansehen.',
+    'public_skin_link' => 'Öffentlichen Link zum gespeicherten Skin öffnen',
+    'public_cape_link' => 'Öffentlichen Link zum gespeicherten Umhang öffnen',
+    'disabled_skin' => 'Skins sind auf dieser Website deaktiviert.',
+    'disabled_cape' => 'Umhänge sind auf dieser Website deaktiviert.',
+    'game_policy' => 'Dein gespeicherter Skin kann automatisch angewendet werden, wenn du einem von der Administration freigegebenen Server beitrittst. SkinsRestorer sendet die PNG-Datei dafür zum Signieren an MineSkin.',
+    'save' => 'Texturen speichern',
+    'skin_preview' => 'Skin-Vorschau',
+    'cape_preview' => 'Umhang-Vorschau',
+    'front' => 'Vorderseite',
+    'back' => 'Rückseite',
+    'saved_png' => 'Gespeicherte PNG-Datei',
+    'default_png' => 'Standard-Skin der Website',
+    'unsaved_png' => 'PNG-Datei ausgewählt. Speichere sie, um sie zu behalten.',
+    'no_skin' => 'Kein PNG-Skin verfügbar.',
+    'no_cape' => 'Kein PNG-Umhang gespeichert.',
+    'preview_error' => 'Vorschau nicht verfügbar. Prüfe Format und Größe der PNG-Datei.',
+];

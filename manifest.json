@@ -1,0 +1,50 @@
+{
+    "id": "skins",
+    "name": "Skins",
+    "authors": ["nivcoo", "KraftInk"],
+    "license": "MIT",
+    "description": "skins::messages.description",
+    "market": {
+        "name": "skins::messages.title",
+        "author": {"name": "nivcoo, KraftInk", "url": "https://github.com/kraftink-cms"},
+        "description": "skins::messages.description"
+    },
+    "type": "plugin",
+    "version": "1.0.0",
+    "namespace": "KraftInk\\Plugins\\Skins\\",
+    "provider": "KraftInk\\Plugins\\Skins\\Providers\\PluginServiceProvider",
+    "privacy": "KraftInk\\Plugins\\Skins\\Services\\Privacy",
+    "games": {
+        "supported": ["minecraft"]
+    },
+    "assets": {"styles": ["profile.css"], "scripts": ["profile.js"]},
+    "permissions": {
+        "skins.use": {
+            "label": "skins::messages.permission_use",
+            "default": {"member": true, "mod": true, "admin": true}
+        },
+        "skins.upload": {
+            "label": "skins::api.permission_upload",
+            "default": {"member": true, "mod": true, "admin": true}
+        },
+        "skins.manage": {
+            "label": "skins::messages.admin.permission",
+            "default": {"admin": true}
+        }
+    },
+    "navigation": {
+        "admin": [
+            {
+                "parent": "extensions",
+                "position": 830,
+                "label": "skins::messages.title",
+                "permission": "skins.manage",
+                "icon": "person-bounding-box",
+                "route": "plugins.skins.admin.index"
+            }
+        ]
+    },
+    "requires": {"php": "^8.4.1", "cms": ">=0.0.1"},
+    "configuration": {"route": "plugins.skins.admin.index", "permission": "skins.manage"},
+    "uninstall": {"settings": ["skins."], "storage": ["skins/textures"]}
+}
