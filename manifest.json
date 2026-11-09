@@ -10,7 +10,7 @@
         "description": "skins::messages.description"
     },
     "type": "plugin",
-    "version": "1.0.0",
+    "version": "1.0.1-dev",
     "namespace": "KraftInk\\Plugins\\Skins\\",
     "provider": "KraftInk\\Plugins\\Skins\\Providers\\PluginServiceProvider",
     "privacy": "KraftInk\\Plugins\\Skins\\Services\\Privacy",
